@@ -8,6 +8,11 @@ Fork this repo, then rename the repository to yourgithubusername.github.io.
 
 Your Jekyll blog will often be viewable immediately at <http://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
 
+In case of a project page
+1. git checkout -b gh-pages
+2. git push origin gh-pages
+3. check at http://yourgithubusername.github.io/project-name
+
 ## Local Development
 
 1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
